@@ -1,4 +1,4 @@
-version: 1
+version: unet
 formatters:
   simple:
     format: '%(asctime)s - %(name)s - %(levelname)s - %(message)s'

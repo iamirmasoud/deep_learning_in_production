@@ -2,7 +2,7 @@ import requests
 from PIL import Image
 import numpy as np
 
-ENDPOINT_URL = "http://0.0.0.0:80/infer"
+ENDPOINT_URL = "http://0.0.0.0:8089/infer"
 
 
 def infer():

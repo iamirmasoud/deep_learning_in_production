@@ -58,7 +58,7 @@ class UnetTrainer:
 
             self.metric.reset_states()
 
-        save_path = os.path.join(self.model_save_path, "unet/1/")
+        save_path = os.path.join(self.model_save_path, "unet/unet/")
         tf.saved_model.save(self.model, save_path)
 
     def _write_summary(self, loss, epoch):

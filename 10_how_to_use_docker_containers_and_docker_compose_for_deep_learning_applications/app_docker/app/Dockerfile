@@ -1,4 +1,4 @@
-FROM tensorflow/tensorflow:nightly
+FROM tensorflow/tensorflow:2.9.3
 
 WORKDIR /app
 
